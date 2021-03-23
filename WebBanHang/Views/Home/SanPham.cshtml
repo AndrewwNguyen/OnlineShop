@@ -1,0 +1,195 @@
+﻿@using WebBanHang.Models;
+@model  WebBanHang.Models.SanPham
+@{
+    ViewBag.Title = "SanPham";
+    Layout = "~/Views/Layout/HomeLayout.cshtml";
+}
+<head>
+    <link href="~/Content/css/chi-tiet-san-pham4.css" rel="stylesheet">
+    <link href="~/Content/css/index2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" />
+</head>
+        <div class="chitietsp">
+            <div class="baosp">
+                <img alt="Điện Thoại" class="imgsp" src="@Url.Content("~/Content/Hinhanh/"+@Model.HinhAnh)">
+                <div class="oslide">
+                    <div class="slide">
+                        <div class="dieuhuong">
+                            <i class="fa fa-chevron-circle-left" onclick="Back()"></i>
+                            <i class="fa fa-chevron-circle-right" onclick="Next()"></i>
+                        </div>
+                        <div class="chuyen-slide" id="Slide" style="margin-left: -780px;">
+                            <img id="img" src="~/Content/css/images/11.jpg" alt="">
+                            <img id="img" src="~/Content/css/images/denthanchi.jpg" alt="">
+                            <img id="img" src="~/Content/css/images/bac.jpg" alt="">
+                            <img id="img" src="~/Content/css/images/vanggold.jpg" alt="">
+                            <img id="img" src="~/Content/css/images/11.jpg" alt="">
+                            <img id="img" src="~/Content/css/images/12.jpg" alt="">
+                            <script type="text/javascript" src="~/Content/js/js.js"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="baochitiet">
+                <div class="product-title">
+                    <h1>@Model.TenSP</h1>
+                    <span id="pro_sku">Mã Sản Phẩm: @Model.MaSP</span>
+
+                </div>
+                <div class="product-price">
+                    <span>@Model.DonGia.ToString() VNĐ</span>
+                </div>
+                <div class="thongso">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Giá tại:
+                                    <select>
+                                        <option>Hà Nội</option>
+                                        <option>Hải Dương</option>
+                                        <option>Nam Định</option>
+                                    </select>
+                                </td>
+ 
+
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <span style="float: left;">Màu sắc:</span>
+                                    <button class="vanggold" onclick="changeImg('~/Content/css/images/vanggold.jpg')"></button>
+                                    <button class="xanhdaiduong" onclick="changeImg('~/Content/css/images/xanhdaiduong.jpg')"></button>
+                                    <button class="denthanchi" onclick="changeImg('~/Content/css/images/denthanchi.jpg')"></button>
+                                    <button class="bac" onclick="changeImg('~/Content/css/images/bac.jpg')"></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Chọn bộ nhớ: &nbsp; &nbsp; <select onchange="GiaTien()" id="sele">
+                                        <option value="128GB">128GB</option>
+                                        <option value="64GB">64GB</option>
+                                        <option value="256GB">256GB</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Chế độ bảo hành: </td>
+                                <td>
+                                    <select>
+                                        <option>Bảo hành mặc định</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="khuyenmai">
+                        <i class="fas fa-gift"></i>Khuyến mãi
+                    </div>
+                    <div class="border">
+                        <br>Trả góp <span>0%</span>:
+                        <ul>
+                            <li>Trả góp <span>lãi suất 0%</span> với Home Credit. Trả trước 50%, kỳ hạn 8 tháng (Áp dụng trên <span>GIÁ NIÊM YẾT</span>, không áp dụng cùng các khuyến mại khác).</li>
+                        </ul>
+                        Chương trình khuyến mại:
+                        <ul>
+                            <li><span>[HOT]</span> Thu cũ lên đời giá cao-Thủ tục nhanh- Trợ giá thêm tới 1 triệu.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="giohangsp">
+                        <a href="@Url.Action("ThemGioHang","GioHang",new{@MaSP=@Model.MaSP,@strUrl=Request.Url.ToString()})">
+                            <button id="add-to-cart" class="btn-detail btn-color-add" name="add" onclick="tb()">Thêm vào giỏ</button>
+                        </a>
+                    </div>
+                    <div class="muangay">
+                        <a href="@Url.Action("XemGioHang","GioHang")">
+                            <a href="@Url.Action("ThemGioHang","GioHang",new{@MaSP=@Model.MaSP,@strUrl=Request.Url.ToString()})">
+                                <button id="buy-now" class="btn-detail btn-color-buy">Mua ngay</button>
+                            </a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="thongso2">
+                <div class="chatlieu">
+                    <label style="text-align:center;font-size:20px">Thông Số Kỹ Thuật</label>
+                    <div class="thongso">
+                        <table border="1px">
+                            <tbody>
+                                <tr>
+                                    <td>Hãng sản xuất</td>
+                                    <th>Apple</th>
+                                </tr>
+                                <tr>
+                                    <td>Kích thước</td>
+                                    <th>158.4 x 78.1 x 7.5 mm <br>(6.24 x 3.07 x 0.30 in)</th>
+                                </tr>
+                                <tr>
+                                    <td>Trọng lượng</td>
+                                    <th>202 g (7.13 oz)</th>
+                                </tr>
+                                <tr>
+                                    <td>Bộ nhớ đệm/ Ram</td>
+                                    <th>3 GB</th>
+                                </tr>
+                                <tr>
+                                    <td>Bộ nhớ trong</td>
+                                    <th>128 GB</th>
+                                </tr>
+                                <tr>
+                                    <td>Loại sim</td>
+                                    <th>Nano-SIM</th>
+                                </tr>
+                                <tr>
+                                    <td>Loại màn hình</td>
+                                    <th>Cảm ứng điện dung LED-backlit IPS LCD, 16 triệu màu</th>
+                                </tr>
+                                <tr>
+                                    <td>Kích thước màn hình</td>
+                                    <th>5.5 inches</th>
+                                </tr>
+                                <tr>
+                                    <td>Độ phân giải màn hình</td>
+                                    <th>1080 x 1920 pixels</th>
+                                </tr>
+                                <tr>
+                                    <td>Hệ điều hành</td>
+                                    <th>iOS</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <table style="text-align:center" border="1px">
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </table>
+            </div>
+            <label style="text-align: center; font-size: 20px">Thông Tin Sản Phẩm</label>
+            <p style="text-indent: 30px;">@Model.CauHinh</p>
+        </div>
+<script>
+    function tb() {
+        alert("Sản Đã Được Thêm vào giỏ hàng !");
+    }
+</script>

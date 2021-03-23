@@ -1,0 +1,90 @@
+﻿@using WebBanHang.Models
+<div style="background-color:gray ;width:100%;height:100px;">
+    <img style="margin-left: 100px;" src="~/Content/css/images/logo3.png" width="100px" ; height="100px;" />
+</div>
+<div id="menudautrang">
+    <div class="contener">
+        <div id="menutrai">
+            <ul class="menungang">
+
+                <li class="menu1"><a href="@Url.Action("Index","Home")">TRANG CHỦ</a></li>
+                <nav>
+                <ul>
+                    <li>
+                        <a href="#" title="Sản Phảm">SẢN PHẨM</a>
+                        <ul>
+                            <li><a href="@Url.Action("SanPham1","Home")" title="Apple"> Apple</a></li>
+                            <li><a href="@Url.Action("SanPham2","Home")" title="Samsung">Samsung</a></li>
+                            <li>
+                                <a href="@Url.Action("SanPham3","Home")" title="Xiaomi">Xiaomi</a>
+                            </li>
+
+
+                        </ul>
+                        </li></ul>
+                        </nav>
+                    <li class="menu1"><a href="@Url.Action("LienHe","Home")">LIÊN HỆ</a></li>
+                    <li class="menu1"><a href="@Url.Action("TinTuc","TinTuc")">TIN TỨC</a></li>
+                </ul>
+</div>
+        <div id="dangnhap">
+            @Html.Action("GioHangPartial", "GioHang")
+            <ul>
+                @if (Session["TaiKhoan"] != null && Session["TaiKhoan"] != "")
+                {
+                    ThanhVien tv = (ThanhVien)Session["TaiKhoan"];
+                    <tr>
+                        <td class="label-fname"></td>
+                        <td>Chào : @tv.HoTen</td>
+                    </tr>
+                       @Html.ActionLink("Đăng Xuất","DangXuat","Home")
+                }
+                else
+                {
+                       <li class="dangnhap1">/<a href="@Url.Action("Dangky","Home")">Đăng ký</a></li>
+                       <li class="dangnhap2"><a id="demo" href="#">Đăng nhập</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="popup-login">
+    <div style="text-align:center">
+        <div class="formBox level-login level-reg-revers">
+            <div class="box boxShaddow"></div>
+            <div class="box loginBox">
+                <h3 style="text-align: center;color:red" >Đăng Nhập Tại Đây</h3>
+                @using (Html.BeginForm("DangNhap", "Home"))
+                {
+                             
+                    <div class="f_row-2">
+                        <input type="text" class="input-field" placeholder="Tài Khoản" name="taikhoan" required="">
+                    </div>
+                    <div class="f_row-2 last">
+                        <input type="password" name="matkhau" placeholder="Mật Khẩu" class="input-field" required="">
+                    </div>
+                    <input class="submit-w3" type="submit" value="Đăng Nhập">
+                    <p style="font-weight: bold;color: red;text-align:center;padding-top:20px" id="thongbao"></p>
+                    
+                }
+                <div style="text-align: center;color:red"><input type="button" value="Đóng" id="close" /></div>
+            </div>
+        </div>
+    </div>
+</div>
+@*Sử dụng jquery*@
+<script type="text/javascript">
+    //Hiển Thị
+    $("#demo").click(function () {
+        $("#popup-login").fadeIn(500);
+    });
+    //Ẩn Đi
+    $("#close").click(anform);
+    function anform() {
+        $("#popup-login").hide();
+    }
+
+</script>
+<head>
+    <link href="~/Content/css/dangnhap4.css" rel="stylesheet">
+</head>

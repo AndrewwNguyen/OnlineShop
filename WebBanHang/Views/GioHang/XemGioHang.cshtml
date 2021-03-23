@@ -1,0 +1,96 @@
+﻿@using WebBanHang.Models;
+@model IEnumerable<ItemGioHang>
+@{
+    ViewBag.Title = "XemGioHang";
+    Layout = "~/Views/Layout/HomeLayout.cshtml";
+}
+<head>
+    <link href="~/Content/css/gio-hang2.css" rel="stylesheet">
+</head>
+<div id="thantrang">
+    <div class="contener">
+        <div id="trangphai">
+            <div class="modal-content">
+                @if (Model == null)
+                {
+                    <h1 style="color:black">Giỏ Hàng Trống</h1>
+                }
+                else
+                {
+                    <div class="modal-body">
+                        <table style="width:100%;" id="cart-table">
+
+                            <tr>
+                                <th>Hình Ảnh</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Số lượng</th>
+                                <th>Đơn Giá</th>
+                                <th>Thành Tiền</th>
+                            </tr>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td><img src="@Url.Content("~/Content/HinhAnh/"+item.HinhAnh)" width="50" height="50" /></td>
+                                    <td>@item.TenSP</td>
+                                    <td>@item.SoLuong</td>
+                                    <td>@item.DonGia.ToString("#,##") VNĐ</td>
+                                    <td>@item.ThanhTien.ToString("#,##") VNĐ</td>
+                                    <td>@Html.ActionLink("Xóa", "XoaGioHang", new { @MaSP = item.MaSP })</td>
+                                </tr>
+                            }
+
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row" style="margin-top:10px;">
+                            <div class="col-lg-6">
+                                <div class="comeback">
+                                    <a href="@Url.Action("Index","Home")">
+                                        <img src="~/Content/css/images/icon-tieptuc.png">
+                                        Tiếp tục mua hàng
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 text-right">
+                                @using (Html.BeginForm("DatHang", "GioHang"))
+                                {
+                                   
+                                    if (Session["TaiKhoan"] == null)
+                                    {
+                                         <h2 style="padding-left:100px;"><b>Thông Tin Khách Hàng</b> </h2>
+                                        <h3>Họ Tên</h3>
+                                        <div class="f_row-2">
+                                            <input type="text" class="input-field" placeholder="Họ Tên" name="HoTen" required="">
+                                        </div>
+                                        <h3>Tài Khoản</h3>
+                                        <div class="f_row-2">
+                                            <input type="text" class="input-field" placeholder="Tài Khoản" name="TaiKhoan" required="">
+                                        </div>
+                                        <h3>Địa Chỉ</h3>
+                                        <div class="f_row-2">
+                                            <input type="text" class="input-field" placeholder="Địa Chỉ" name="DiaChi" required="">
+                                        </div>
+                                        <h3>Email</h3>
+                                        <div class="f_row-2">
+                                            <input type="text" class="input-field" placeholder="Email" name="Email" required="">
+                                        </div>
+                                        <h3>Số Điện Thoại</h3>
+                                        <div class="f_row-2">
+                                            <input type="text" class="input-field" placeholder="Số Điện Thoại" name="SDT" required="">
+                                        </div>
+                                    }
+                                    <div class="buttons btn-modal-cart">
+
+                                        <button type="submit" onclick="tb()" class="button-default" id="checkoutt" name="checkout">
+                                            Đặt hàng
+                                        </button>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,75 @@
+﻿@model IEnumerable<WebBanHang.Models.SanPham>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+<p>
+    @Html.ActionLink("Thêm Mới Sản Phẩm", "Create")
+</p>
+<div style="max-width: 100%; overflow-x: scroll;">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TenSP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DonGia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayCapNhap)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CauHinh)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.Mau)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.HinhAnh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoLuongTon)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.LuotXem)
+            </th>*@
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="width:50px">
+                    @Html.DisplayFor(modelItem => item.TenSP)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DonGia)
+                </td>
+                <td style="width:50px">
+                    @Html.DisplayFor(modelItem => item.NgayCapNhap)
+                </td>
+                <td style="width:300px">
+                    @Html.DisplayFor(modelItem => item.CauHinh)
+                </td>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.Mau)
+                </td>*@
+                <td>
+                    <img width="50px" height="50px" src="@Url.Content("~/Content/Hinhanh/"+item.HinhAnh)" title="product-name">
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoLuongTon)
+                </td>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.LuotXem)
+                </td>*@
+                <td width="100px">
+                    @Html.ActionLink("Edit", "Edit", new { id = item.MaSP }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.MaSP }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.MaSP })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

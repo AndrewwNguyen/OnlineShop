@@ -1,0 +1,219 @@
+
+
+body {
+  background-color: white;
+}
+.all{
+  margin: 50px;
+  margin-top: 0;
+  padding: 20px;
+}
+.sp {
+  height: 300px;
+  width: 30%;
+  float: left;
+  margin-right: 40px ;
+}
+.sp img {
+  width: 100%;
+  height: 330px;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.left {
+  float: left;
+}
+.vanggold{
+  width: 20px;
+  height: 20px; 
+  background-color: #FDF2C8; 
+  float: left;
+  border: 1px solid;
+  border-radius: 3px;
+  margin: 2 px ;
+  padding: 2 px ;
+}
+.bac{
+  width: 20px;
+  height: 20px; 
+  background-color: #F0EEE7; 
+  float: left;
+  border: 1px solid;
+  border-radius: 3px;
+  margin: 2 px;
+  padding: 2 px;
+}
+.xanhdaiduong{
+  width: 20px; 
+  height: 20px; 
+  background-color: #98BCCC;
+  float: left;
+  border: 1px solid;
+  border-radius: 3px;
+  margin: 2 px;
+  padding: 2 px;
+}
+.denthanchi{
+  width: 20px; 
+  height: 20px; 
+  background-color: #A29999; 
+  float: left;
+  border: 1px solid;
+  border-radius: 3px;
+  margin: 2 px;
+  padding:  2 px;
+}
+.giua {
+  width: 100%;
+  height: 1000px;
+  margin: auto;
+  padding: auto;
+}
+.thongtin {
+  width: 60%;
+  height: 100px;
+  float: left;
+  font-style: 14px;
+}
+.thongtin tr, td {
+  padding-top: 5px;
+}
+.dichvu {
+  width: 60%;
+  height: 230px;
+  float: left;
+
+}
+.khuyenmai{
+  position: relative;
+  left:  20px;
+  bottom: 20px;
+  right: auto;
+  top: 10px;
+  border-color: 1px red solid;
+  border-radius: 8px;
+  background-color: red;
+  width: 100px;
+  color: white;
+}
+.border {
+  border: 1px solid;
+  border-color: red; 
+  border-radius: 5px;"
+}
+.SLIDE{
+  width: 100%;
+  height: 200px;
+  float: left;
+}
+.oslide {
+  width: 30%; 
+  height: 200px; 
+  float: left;
+  margin-right: 30px;
+  padding:  center;
+}
+
+.slide{
+  width: 195px;
+  margin: 0 20px;
+  overflow: hidden;
+  margin-top: 50px;
+  border-radius: 10px;
+  position: relative;
+}
+.chuyen-slide{
+  width: 600px;
+  transition: all 0.5s;
+}
+ #img{
+  width: 99px;
+  height: 80px;
+  float:left;
+  background-color: white; 
+}
+.dieuhuong{
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  top: 37%;
+  padding-left: 0;
+}
+.dieuhuong i:last-child{
+  position: relative;
+  left: 150px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#mess{
+  color: #1693FD;
+}
+.baohanh {
+  width: 60%;
+  height: 200px;
+  float: left;
+  margin-left: 10px;
+}
+.buttom{
+  text-align: center;
+}
+#gia {
+  color: red;
+}
+button {
+  text-align: center;
+  margin: 0 10px;
+  padding: 0 3px;
+  font-style: italic;
+  color: white;
+  background-color: #F73232;
+  border: 1px solid;
+  border-radius: 10px;
+}
+#chu {
+  text-align:left;
+  color: white;
+}
+.phancuoi{
+
+}
+.logo {
+  color: #2565F7;
+  float: left;
+  font-size:-webkit-xxx-large; 
+}
+.lentop{
+  display: block;
+  position: fixed;
+  bottom: 5px;
+  right: 50px;
+  color: black;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+span {
+  color: red;
+}
+.giuaduoi {
+  width: 100%;
+  hyphens: 500px;
+
+}
+.thongso {
+  width: 40%;
+  margin-top: 20px;
+  float: left;
+}
+.thongso table {
+  border-spacing: 0px;
+}
+.gioithieu {
+  width: 55%;
+  float: left;
+  margin-left: 20px;
+  font-style: 30px;
+}

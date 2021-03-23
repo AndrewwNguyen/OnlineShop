@@ -1,0 +1,145 @@
+﻿@model WebBanHang.Models.SanPham
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Bạn chắc chắn rằng muốn xóa sản phẩm này?</h3>
+<div>
+    <h4>SanPham</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenSP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenSP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DonGia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DonGia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayCapNhap)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayCapNhap)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CauHinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CauHinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mau)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mau)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MoTa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MoTa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HinhAnh)
+        </dt>
+
+        <dd>
+            <img width="50px" height="50px" src="@Url.Content("~/Content/Hinhanh/"+@Model.HinhAnh)" title="product-name">
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoLuongTon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoLuongTon)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LuotXem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LuotXem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LuotBinhLuan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LuotBinhLuan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LuotMua)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LuotMua)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DaXoa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DaXoa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LoaiSanPham.TenLoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoaiSanPham.TenLoai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NhaCungCap.TenNCC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NhaCungCap.TenNCC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NhaSanXuat.TenNSX)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NhaSanXuat.TenNSX)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            @Html.ActionLink("Trở Lại Danh Sách", "Index")
+        </div>
+    }
+</div>

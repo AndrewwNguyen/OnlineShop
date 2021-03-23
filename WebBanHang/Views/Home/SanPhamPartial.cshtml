@@ -1,0 +1,21 @@
+﻿@using WebBanHang.Models;
+@using System.Collections.Generic;
+@model List<SanPham>
+    <head>
+        <link href="~/Content/css/style4.css" rel="stylesheet">
+        @*<link href="~/Content/css/demo.css" rel="stylesheet">*@
+    </head>
+<img width="100%" height="400px;" src="~/Content/css/images/1.png" />
+    <div id="trangphai">
+            <div class="special-products">
+                @foreach (var item in Model)
+                {
+                    <div style="text-align:center; float:left" class=" col-md-6 special-products-grid text-center">  
+                            <a class="product-here" href="@Url.Action("SanPham", "Home", new { @MaSP = item.MaSP, @strUrl = Request.Url.ToString() })"><img src="@Url.Content("~/Content/Hinhanh/"+item.HinhAnh)" title="product-name"></a>
+                            <h5><a href="single-page.html">@item.TenSP</a></h5>
+                        <div style="width: 100%; background-color: white; margin-bottom:10px; font-size:10px ;overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 170px;display: block;">@item.CauHinh</div>
+                        <a class="product-btn" href="@Url.Action("ThemGioHang","GioHang",new{@MaSP=item.MaSP,@strUrl=Request.Url})"> @item.DonGia VNĐ</a>
+                        </div>
+                }
+            </div>
+    </div>

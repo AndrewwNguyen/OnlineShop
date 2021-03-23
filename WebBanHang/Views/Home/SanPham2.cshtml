@@ -1,0 +1,7 @@
+﻿@using WebBanHang.Models
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layout/HomeLayout.cshtml";
+}
+@Html.Partial("SanPhamPartial", (List<SanPham>)ViewBag.ListSP);
+

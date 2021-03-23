@@ -1,0 +1,110 @@
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\WebBanHang.dll.config
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\WebBanHang.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\WebBanHang.pdb
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Antlr3.Runtime.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\EntityFramework.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\EntityFramework.SqlServer.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.Google.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Web.Infrastructure.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Newtonsoft.Json.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Owin.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.Helpers.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.Mvc.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.Optimization.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.Razor.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.WebPages.Deployment.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.WebPages.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.WebPages.Razor.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\WebGrease.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.Helpers.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.Mvc.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.Optimization.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.Razor.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.WebPages.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.WebPages.Deployment.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\System.Web.WebPages.Razor.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Newtonsoft.Json.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Antlr3.Runtime.pdb
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\EntityFramework.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\EntityFramework.SqlServer.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.Google.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\obj\Debug\WebBanHang.csprojResolveAssemblyReference.cache
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\obj\Debug\WebBanHang.dll
+c:\users\windows 10\documents\K-Team\WebBanHang\WebBanHang\obj\Debug\WebBanHang.pdb
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\obj\Debug\WebBanHang.csprojResolveAssemblyReference.cache
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\obj\Debug\WebBanHang.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\obj\Debug\WebBanHang.pdb
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\WebBanHang.dll.config
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\WebBanHang.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\WebBanHang.pdb
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Antlr3.Runtime.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\EntityFramework.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\EntityFramework.SqlServer.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Newtonsoft.Json.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Owin.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.Helpers.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.Mvc.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.Optimization.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.Razor.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.WebPages.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\WebGrease.dll
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.Helpers.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.Mvc.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.Optimization.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.Razor.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.WebPages.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Newtonsoft.Json.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Antlr3.Runtime.pdb
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\EntityFramework.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\EntityFramework.SqlServer.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Windows 10\Documents\WebBanHangOnline\Web Ban Hang\WebBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.xml

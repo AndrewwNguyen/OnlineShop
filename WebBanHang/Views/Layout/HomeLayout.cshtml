@@ -1,0 +1,95 @@
+﻿<head>
+    <title>Web Bán Điện Thoại</title>
+    <link href="~/Content/css/index3.css" rel="stylesheet">
+    <link href="~/Content/css/tintuc4.css" rel="stylesheet">
+    <link href="~/Content/css/oneplus1.css" rel="stylesheet">
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" />
+</head>
+<body>
+    @Html.Partial("~/Views/Layout/HeaderTopPartial.cshtml")
+    <div id="timkiem">
+        <div class="contener">
+            <div id="timkiem">
+                <div class="timkiemphai">
+                    <div class="hotline">
+                        <div class="label">HOTLINE</div>
+                        <div class="number">0396.336.480 - 090.2234.481</div>
+                    </div>
+
+                    <div class="otimkiem">
+                        <div class="search">
+                            <form onsubmit="return checksearchForm();" id="searchForm" name="searchForm" method="post" action="">
+                                <input type="text" class="key" placeholder="Từ khóa tìm kiếm" value="" name="pr_name" id="keysearch">
+                                <input type="submit" value="Tìm kiếm" class="submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    @*thân trang*@
+            @RenderBody()
+    @*chân trang*@
+    <div class="hinh34">
+        <div class="hinh35">
+            <div style="margin:35px 0 0 35px;font-size:25px"><h2>Liên Kết Mạng Xã Hội</h2>
+                <p ><img src="~/Content/css/images/facebook.png" />Facebook</p>
+                <p><img src="~/Content/css/images/instagram.png" />instagram</p>
+                <p><img src="~/Content/css/images/youtube.png" />youtube</p>
+                <p><img src="~/Content/css/images/twitter.png" />twitter</p>
+            </div>
+        </div>
+        <div class="hinh36">
+            <h2 style="margin: 30px 0 0 20px; font-family: sans-serif; color: white; font-size: 20px">Quy Định - Chính Sách</h2>
+            <ul>
+                <li>
+                    Chính sách bảo hành
+                </li>
+                
+                <li>
+                    Chính sách vận chuyển
+                </li>
+                <li>
+                    Chính sách đổi trả hàng
+                </li>
+                <li>
+                    Chính sách bảo mật thông tin
+                </li>
+
+            </ul>
+        </div>
+        <div class="hinh40">
+            <h2 style="padding-top: 30px; font-size: 20px;">POPULAR TAGS</h2>
+            <ul>
+                <a href="#"><li>Apple</li></a>
+                <a href="#"><li>SamSung</li></a>
+                <a href="#"><li>XiaoMi</li></a>
+                <a href="#"><li>CART</li></a>
+                <a href="#"><li>BUY</li></a>
+                <a href="#"><li>VIETNAM</li></a>
+            </ul>
+            <ul>
+                <a href=""><li>Baby</li></a>
+                <a href="#"><li>CONTACT</li></a>
+                <a href="#"><li>News</li></a>
+                <a href="#"><li>Iphone 12</li></a>
+                <a href="#"><li>Shopping</li></a>
+                <a href="#"><li>Samsung S20</li></a>
+                <a href="#"><li>Mobile</li></a>
+            </ul>
+        </div>
+    </div>
+</body>
+<div class="phancuoi">
+    <div class="logo">
+        <a id="mess" href="https://www.facebook.com/messages/t/100015855459725"><i class="fab fa-facebook-messenger"></i></a>
+    </div>
+</div>
+<div>
+    <a class="lentop" href="#" title="Back to Top">
+        <i class="fas fa-arrow-circle-up"></i>
+    </a>
+</div>
