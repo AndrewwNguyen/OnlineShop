@@ -13,6 +13,7 @@ namespace WebBanHang.Controllers
         public ActionResult Index()
         {
             var a = 5;
+            var b = 5;
             return View();
         }
 	}

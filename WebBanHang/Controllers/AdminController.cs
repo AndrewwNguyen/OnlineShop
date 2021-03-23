@@ -18,6 +18,7 @@ namespace WebBanHang.Controllers
         // GET: /Default2/
         public ActionResult Index()
         {
+            //changes
             var sanphams = db.SanPhams.Include(s => s.LoaiSanPham).Include(s => s.NhaCungCap).Include(s => s.NhaSanXuat);
             return View(sanphams.ToList());
         }
