@@ -12,6 +12,7 @@ namespace WebBanHang.Controllers
         // GET: /Admin/
         public ActionResult Index()
         {
+            var a = 5;
             return View();
         }
 	}
